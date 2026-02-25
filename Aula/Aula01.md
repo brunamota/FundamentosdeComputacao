@@ -114,7 +114,7 @@ Como temos 3 variáveis, a tabela possui $2^3 = 8$ linhas.
 
 > 
 > **Nota:** Como o resultado final possui tanto **V** quanto **F**, classificamos esta proposição como uma **Contingência**.
-> 
+> Sentido prático: No sistema de férias, se o resultado é uma contingência, significa que o software precisa avaliar os dados de cada funcionário individualmente para decidir, pois a regra não é sempre verdadeira nem sempre falsa.
 > 
 
 **Análise de Cenário:**
@@ -123,7 +123,7 @@ Como temos 3 variáveis, a tabela possui $2^3 = 8$ linhas.
 
 * Este tipo de proposição que mistura V e F na saída é chamada de **Contingência**.
 
-## 4. Representação de Dados: Binário e Hexa (10 min)
+## 4. Representação de Dados: Binário e Hexa
 
 Na computação, o valor lógico V é 1 e F é 0.
 
