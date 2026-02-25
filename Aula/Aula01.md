@@ -8,10 +8,14 @@ A lógica não é apenas filosofia; é a ferramenta que estrutura linguagens for
 * **Princípios Fundamentais:**
   * **Não Contradição:** Uma proposição não pode ser V e F ao mesmo tempo.
   * **Terceiro Excluído:** Ou é V ou é F, não existe "meio termo".
-* Premissa: Uma proposição (ou conjunto delas) que serve como base ou fundamentação para uma conclusão.
-* Conclusão: A parte final de uma inferência; a proposição que se pretende obter a partir das premissas.
-* Inferência: O processo mental ou conjunto de proposições em que as premissas são apresentadas para sustentar a conclusão.
-* Relação Lógica: A conexão que liga as premissas à conclusão, garantindo a validade do argumento.
+* **Premissa:** Uma proposição (ou conjunto delas) que serve como base ou fundamentação para uma conclusão.
+* **Conclusão:** A parte final de uma inferência; a proposição que se pretende obter a partir das premissas.
+* **Inferência:** O processo mental ou conjunto de proposições em que as premissas são apresentadas para sustentar a conclusão.
+* **Relação Lógica:** A conexão que liga as premissas à conclusão, garantindo a validade do argumento.
+* **Classificação de Proposições Compostas:**
+ * **Tautologia:** Quando o resultado final é sempre Verdadeiro, independentemente dos valores das proposições simples.
+ * **Contradição:** Quando o resultado final é sempre Falso.
+ * **Contingência (ou Indeterminação):** Quando o valor lógico final apresenta uma mistura de Verdadeiros (V) e Falsos (F). O resultado depende das circunstâncias reais das premissas.
 
 * Exemplo de Argumento Lógico:
 ```
@@ -114,7 +118,7 @@ Como temos 3 variáveis, a tabela possui $2^3 = 8$ linhas.
 
 > 
 > **Nota:** Como o resultado final possui tanto **V** quanto **F**, classificamos esta proposição como uma **Contingência**.
-> Sentido prático: No sistema de férias, se o resultado é uma contingência, significa que o software precisa avaliar os dados de cada funcionário individualmente para decidir, pois a regra não é sempre verdadeira nem sempre falsa.
+> Ouseja, no sistema de férias, se o resultado é uma contingência, significa que o software precisa avaliar os dados de cada funcionário individualmente para decidir, pois a regra não é sempre verdadeira nem sempre falsa.
 > 
 
 **Análise de Cenário:**
