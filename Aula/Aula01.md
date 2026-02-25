@@ -37,6 +37,8 @@ Na programação, utilizamos conectores para unir proposições simples e formar
 | **Negação (NÃO)** | $\neg$ | `not` | `!` | Inverte o valor lógico: o que é V vira F.|
 | **Condicional** | $\rightarrow$ | `if` | `if` | "Se p, então q". Formaliza a ideia de causa e consequência.|
 
+Na computação, o valor lógico V é 1 e F é 0.
+
 ### Exemplos de Aplicação
 
 Para fixar a **relação lógica** entre premissas e conclusão, veja estes exemplos fora da sintaxe de tabela:
@@ -127,20 +129,6 @@ Como temos 3 variáveis, a tabela possui $2^3 = 8$ linhas.
 
 * Este tipo de proposição que mistura V e F na saída é chamada de **Contingência**.
 
-## 4. Representação de Dados: Binário e Hexa
-
-Na computação, o valor lógico V é 1 e F é 0.
-
-* **Sistema Binário (Base 2):** A base de tudo no hardware.
-
-* **Sistema Hexadecimal (Base 16):** Usado para simplificar endereços de memória e cores.
-
-| Decimal | Binário (Base 2) | Hexadecimal (Base 16) |
-| --- | --- | --- |
-| 0 | 0000 | 0 |
-| 10 | 1010 | A |
-| 15 | 1111 | F |
-
 ### Conversão Rápida
 
 Para converter **Octal para Hexadecimal**, passamos obrigatoriamente pelo **Binário**:
@@ -148,7 +136,7 @@ Para converter **Octal para Hexadecimal**, passamos obrigatoriamente pelo **Bin�
 1. Octal $\rightarrow$ Binário.
 2. Binário $\rightarrow$ Hexadecimal.
 
-## 5. Exercício de Fixação
+## 4. Exercício de Fixação
 
 Dadas as variáveis $a=4, b=5$ e $c=2$:
 
