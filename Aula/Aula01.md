@@ -14,31 +14,23 @@ A lógica não é apenas filosofia; é a ferramenta que estrutura linguagens for
 * Relação Lógica: A conexão que liga as premissas à conclusão, garantindo a validade do argumento.
 
 * Exemplo de Argumento Lógico:
+```
+Premissa 1: Todo aluno de ADS estuda Python.
 
-> Premissa 1: Todo aluno de ADS estuda Python.
+Premissa 2: Bruna é aluna de ADS.
 
-> Premissa 2: Bruna é aluna de ADS.
-
-> Conclusão: Logo, Bruna estuda Python.
-
+Conclusão: Logo, Bruna estuda Python.
+```
 ## 2. Operadores Lógicos na Prática
 
 Para criar algoritmos complexos, conectamos proposições simples.
 
 | Operação | Símbolo | Regra de Ouro | Exemplo em Código |
 | --- | --- | --- | --- |
-| **Conjunção (E)** | $\wedge$ | Só é verdade se **ambas** forem verdadeiras.
-
- | `if (user == "admin" && pass == "123")` |
-| **Disjunção (OU)** | $\vee$ | É verdade se **pelo menos uma** for verdadeira.
-
- | `if (salario > 5000 |
-| **Negação (NÃO)** | $\neg$ | Inverte o valor lógico.
-
- | `if (!isLogado)` |
-| **Condicional** | $\rightarrow$ | "Se... então". Só é falsa se a causa for V e o efeito F.
-
- | Regras de negócio/requisitos. |
+| **Conjunção (E)** | $\wedge$ | Só é verdade se **ambas** forem verdadeiras. | `if (user == "admin" && pass == "123")` |
+| **Disjunção (OU)** | $\vee$ | É verdade se **pelo menos uma** for verdadeira. | `if (salario > 5000 |
+| **Negação (NÃO)** | $\neg$ | Inverte o valor lógico. | `if (!isLogado)` |
+| **Condicional** | $\rightarrow$ | "Se... então". Só é falsa se a causa for V e o efeito F. | Regras de negócio/requisitos. |
 
 ---
 
