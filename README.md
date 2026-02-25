@@ -24,22 +24,9 @@
 <img width="15" height="15" alt="iconGitAC2" src="https://github.com/user-attachments/assets/b2fb37fe-a174-4c4b-8b51-d8eb3bef9ef5" /> Término das Aulas: 19/04/2026
 
 
-## Ferramentas utilizada na matéria
-
-<img width="15" height="15" alt="iconGitAC2" src="https://github.com/user-attachments/assets/b2fb37fe-a174-4c4b-8b51-d8eb3bef9ef5" /> IDE - PyCharm - https://www.jetbrains.com/pycharm/download/?section=windows
-
-<img width="15" height="15" alt="iconGitAC2" src="https://github.com/user-attachments/assets/b2fb37fe-a174-4c4b-8b51-d8eb3bef9ef5" /> Python - https://www.python.org/downloads/
-
-## Sololearn
-
- <img width="15" height="15" alt="iconGitAC2" src="https://github.com/user-attachments/assets/b2fb37fe-a174-4c4b-8b51-d8eb3bef9ef5" /> https://www.sololearn.com/pt/learn/courses/java-introduction
-
- <img width="15" height="15" alt="iconGitAC2" src="https://github.com/user-attachments/assets/b2fb37fe-a174-4c4b-8b51-d8eb3bef9ef5" /> https://www.sololearn.com/pt/learn/courses/java-intermediate
-
 ## Documentos da Disciplina
 
-<img width="15" height="15" alt="iconGitAC2" src="https://github.com/user-attachments/assets/b2fb37fe-a174-4c4b-8b51-d8eb3bef9ef5" /> [Plano de Ensino](https://github.com/user-attachments/files/25557081/Plano_ensino_ED_BD_2026.pdf)
-
+<img width="15" height="15" alt="iconGitAC2" src="https://github.com/user-attachments/assets/b2fb37fe-a174-4c4b-8b51-d8eb3bef9ef5" /> [Plano de Ensino](https://github.com/user-attachments/files/25557169/Plano_ensino_FC_2026.pdf)
 
 ## Aulas
 
