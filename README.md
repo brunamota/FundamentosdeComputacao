@@ -10,11 +10,11 @@
 ## Datas Importantes
 <img width="15" height="15" alt="iconGitDC" src="https://github.com/user-attachments/assets/43600efe-30a5-4d1b-9922-a29f040a6679" /> Início das Aulas - 03/02/2026
 
-<img width="15" height="15" alt="iconGitDC" src="https://github.com/user-attachments/assets/43600efe-30a5-4d1b-9922-a29f040a6679" /> 1ª Aula Síncrona: 25/02/2026 - 20h às 21h
+<img width="15" height="15" alt="iconGitDC" src="https://github.com/user-attachments/assets/43600efe-30a5-4d1b-9922-a29f040a6679" /> 1ª Aula Síncrona: 25/02/2026 - 19h às 20h
 
-<img width="15" height="15" alt="iconGitDC" src="https://github.com/user-attachments/assets/43600efe-30a5-4d1b-9922-a29f040a6679" /> 2ª Aula Síncrona: 12/03/2026 - 20h às 21h
+<img width="15" height="15" alt="iconGitDC" src="https://github.com/user-attachments/assets/43600efe-30a5-4d1b-9922-a29f040a6679" /> 2ª Aula Síncrona: 12/03/2026 - 19h às 20h
 
-<img width="15" height="15" alt="iconGitDC" src="https://github.com/user-attachments/assets/43600efe-30a5-4d1b-9922-a29f040a6679" /> 3ª Aula Síncrona: 26/03/2026 - 20h às 21h
+<img width="15" height="15" alt="iconGitDC" src="https://github.com/user-attachments/assets/43600efe-30a5-4d1b-9922-a29f040a6679" /> 3ª Aula Síncrona: 26/03/2026 - 19h às 20h
 
 <img width="15" height="15" alt="iconGitDC" src="https://github.com/user-attachments/assets/43600efe-30a5-4d1b-9922-a29f040a6679" /> Avaliações Presenciais: 07/04/2026 a 11/04/2026
 
