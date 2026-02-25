@@ -1,5 +1,6 @@
 <div align="center">
-
+  
+<img width="562" height="190" alt="cabecalhoDK" src="https://github.com/user-attachments/assets/23b97ec1-db2d-429c-b83e-61f950d33792" />
 
 </div>
 
