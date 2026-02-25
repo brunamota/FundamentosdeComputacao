@@ -16,8 +16,10 @@ A lógica não é apenas filosofia; é a ferramenta que estrutura linguagens for
 * Exemplo de Argumento Lógico:
 
 > Premissa 1: Todo aluno de ADS estuda Python.
->> Premissa 2: Bruna é aluna de ADS.
->> Conclusão: Logo, Bruna estuda Python.
+
+> Premissa 2: Bruna é aluna de ADS.
+
+> Conclusão: Logo, Bruna estuda Python.
 
 ## 2. Operadores Lógicos na Prática
 
