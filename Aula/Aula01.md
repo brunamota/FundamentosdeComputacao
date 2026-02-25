@@ -28,7 +28,7 @@ Para criar algoritmos complexos, conectamos proposições simples.
 | Operação | Símbolo | Regra de Ouro | Exemplo em Código |
 | --- | --- | --- | --- |
 | **Conjunção (E)** | $\wedge$ | Só é verdade se **ambas** forem verdadeiras. | `if (user == "admin" && pass == "123")` |
-| **Disjunção (OU)** | $\vee$ | É verdade se **pelo menos uma** for verdadeira. | `if (user == "admin" || pass == "123") |
+| **Disjunção (OU)** | $\vee$ | É verdade se **pelo menos uma** for verdadeira. | `if (user == "admin" \|\| pass == "123") |
 | **Negação (NÃO)** | $\neg$ | Inverte o valor lógico. | `if (!isLogado)` |
 | **Condicional** | $\rightarrow$ | "Se... então". Só é falsa se a causa for V e o efeito F. | Regras de negócio/requisitos. |
 
