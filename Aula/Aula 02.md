@@ -62,6 +62,7 @@ A negação da negação de uma proposição é equivalente à própria proposi�
 
 #### **B) Leis de De Morgan**
 Estas leis mostram como negar conjunções ("e") e disjunções ("ou").
+
 **1ª Lei: Negação da Conjunção ($\neg(p \wedge q) \equiv \neg p \vee \neg q$)**
 * **Exemplo:** "Não é verdade que Miguel tem um celular e um laptop" equivale a "Miguel não tem um celular **ou** não tem um laptop".
 
