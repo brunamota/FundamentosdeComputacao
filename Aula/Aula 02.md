@@ -129,11 +129,10 @@ Utilize os valores: $a=4, b=5$ e $c=2$.
 * Falsa ou Verdadeira ($F \vee V$) resulta em **Verdadeiro (V)**.
 
 3. **Simplificação (De Morgan):** Refatore a negação da frase: "A prova foi fácil e Paulo joga futebol".
-* $\neg(fácil \wedge joga) \equiv \neg fácil \vee \neg joga$ .
 
 * **Definição das proposições:**
-* $p$: "A prova foi fácil".
-* $q$: "Paulo joga futebol".
+  * $p$: "A prova foi fácil".
+  * $q$: "Paulo joga futebol".
 * **Frase original:** $(p \wedge q)$.
 * **Negação da frase:** $\neg(p \wedge q)$.
 * **Aplicação de De Morgan:** $\neg p \vee \neg q$.
