@@ -18,7 +18,7 @@ Para que um conjunto de frases se torne um algoritmo confiável, precisamos ente
 * **Contingência:** Quando o resultado final na tabela-verdade varia entre V e F (ex: pedidos de férias em uma empresa).
 
 
-## 2. Implicação Lógica ($\Rightarrow$) (10 min)
+## 2. Implicação Lógica ($\Rightarrow$)
 
 Dizemos que uma proposição $p$ implica $q$ quando o condicional $p \rightarrow q$ é uma **tautologia**.
 
@@ -110,7 +110,7 @@ Para simplificar fórmulas e reduzir a necessidade de parênteses no código, se
 4. **Condicional ($\rightarrow$):** (`if`).
 5. **Bicondicional ($\leftrightarrow$):** (`==`).
 
-## 5. Prática
+## 5. Exercícios
 
 Vamos aplicar os conceitos para simplificar verificações de sistemas.
 Utilize os valores: $a=4, b=5$ e $c=2$.
