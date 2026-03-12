@@ -30,3 +30,5 @@
 ## Aulas
 
 <img width="15" height="15" alt="iconGitDC" src="https://github.com/user-attachments/assets/43600efe-30a5-4d1b-9922-a29f040a6679" /> [Aula 01 - Lógica Proposicional e Tomada de Decisão na Computação](https://github.com/brunamota/FundamentosdeComputacao/blob/main/Aula/Aula01.md)
+
+<img width="15" height="15" alt="iconGitDC" src="https://github.com/user-attachments/assets/43600efe-30a5-4d1b-9922-a29f040a6679" /> [Aula 02: Relações Lógicas e Álgebra de Proposições](https://github.com/brunamota/FundamentosdeComputacao/blob/main/Aula/Aula%2002.md)
