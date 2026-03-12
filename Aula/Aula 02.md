@@ -96,8 +96,8 @@ Estas leis mostram como negar conjunções ("e") e disjunções ("ou").
 Uma condicional é logicamente equivalente à sua contrapositiva, onde negamos e invertemos o antecedente e o consequente.
 
 * **Exemplo:**
- * Regra: "Se o sistema está online ($p$), então o banco de dados está conectado ($q$)".
- * Aplicação: Se um aluno vê que o banco de dados está desconectado ($\neg q$), ele pode afirmar com 100% de certeza lógica que o sistema não está online ($\neg p$). É uma ferramenta de diagnóstico de erros.
+  * **Regra:** "Se o sistema está online ($p$), então o banco de dados está conectado ($q$)".
+  * **Aplicação:** Se um aluno vê que o banco de dados está desconectado ($\neg q$), ele pode afirmar com 100% de certeza lógica que o sistema não está online ($\neg p$). É uma ferramenta de diagnóstico de erros.
 * **Quando aplicar:** Em Demonstrações e Verificação de Regras de Negócio.
 * **Utilidade:** Às vezes, é muito difícil provar que algo acontece ($p \rightarrow q$), mas é muito fácil provar que, se o resultado não ocorreu, a causa também não existiu ($\neg q \rightarrow \neg p$).
 
