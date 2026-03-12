@@ -123,8 +123,6 @@ Utilize os valores: $a=4, b=5$ e $c=2$.
 * **Resposta:** O valor lógico resultante é **Falso (F)**.
 
 2. **Raciocínio Condicional:** Se $(a > b)$ ou $(c < a)$, então $x = b + (a/c)$. Qual o valor de $x$?
-* $(4 > 5)$ é F; $(2 < 4)$ é V.
-
 * **Análise da condição:**
 * $(a > b) \rightarrow (4 > 5)$ é **Falso (F)**.
 * $(c < a) \rightarrow (2 < 4)$ é **Verdadeiro (V)**.
