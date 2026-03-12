@@ -17,7 +17,6 @@ Para que um conjunto de frases se torne um algoritmo confiável, precisamos ente
 * **Contradição:** Proposição sempre falsa (ex: $p \wedge \neg p$).
 * **Contingência:** Quando o resultado final na tabela-verdade varia entre V e F (ex: pedidos de férias em uma empresa).
 
-
 ## 2. Implicação Lógica ($\Rightarrow$)
 
 Dizemos que uma proposição $p$ implica $q$ quando o condicional $p \rightarrow q$ é uma **tautologia**.
@@ -52,6 +51,8 @@ Essas regras permitem simplificar códigos complexos sem alterar o resultado fin
 A negação da negação de uma proposição é equivalente à própria proposição original.
 
 * **Exemplo:** "Não é verdade que Marcos não é japonês" é o mesmo que dizer "Marcos é japonês".
+* **Quando aplicar:** Na Simplificação de Código.
+* **Utilidade:** Ao escrevermos lógica de "erro" ou "exceção", acabamos criando expressões como if not (not usuario_ativo). A aplicação desta propriedade permite "limpar" o código, tornando-o mais legível e direto (if usuario_ativo). No quadro, você pode mostrar que negar algo duas vezes retorna ao estado original.
 
 **Tabela-Verdade:**
 | $p$ | $\neg p$ | $\neg(\neg p)$ |
@@ -63,8 +64,11 @@ A negação da negação de uma proposição é equivalente à própria proposi�
 #### **B) Leis de De Morgan**
 Estas leis mostram como negar conjunções ("e") e disjunções ("ou").
 
+* **Quando aplicar:** Na Refatoração de Condicionais Complexas. No código, De Morgan é usado para transformar um not que está "fora" dos parênteses em verificações individuais "dentro", invertendo o conectivo (and vira or e vice-versa).
+
 **1ª Lei: Negação da Conjunção ($\neg(p \wedge q) \equiv \neg p \vee \neg q$)**
 * **Exemplo:** "Não é verdade que Miguel tem um celular e um laptop" equivale a "Miguel não tem um celular **ou** não tem um laptop".
+* **Utilidade:** Quando você quer negar uma condição onde ambas as coisas precisavam ser verdadeiras. Exemplo: "Não é verdade que o aluno tem nota alta E frequência alta". Isso é útil para identificar quem será reprovado: ou quem tem nota baixa OU quem tem falta.
 
 **Tabela-Verdade:**
 | $p$ | $q$ | $p \wedge q$ | $\neg(p \wedge q)$ | $\neg p$ | $\neg q$ | $\neg p \vee \neg q$ |
@@ -76,6 +80,7 @@ Estas leis mostram como negar conjunções ("e") e disjunções ("ou").
 
 **2ª Lei: Negação da Disjunção ($\neg(p \vee q) \equiv \neg p \wedge \neg q$)**
 * **Exemplo:** "Não é verdade que Rodrigo vai ao concerto ou Carlos vai ao concerto" equivale a "Rodrigo não vai ao concerto **e** Carlos não vai ao concerto".
+* **Utilidade:** Quando você quer negar uma escolha. Exemplo: "Não é verdade que aceitamos Pix OU Cartão". Isso significa que o sistema NÃO aceita Pix E NÃO aceita Cartão.
 
 **Tabela-Verdade:**
 | $p$ | $q$ | $p \vee q$ | $\neg(p \vee q)$ | $\neg p$ | $\neg q$ | $\neg p \wedge \neg q$ |
@@ -90,7 +95,11 @@ Estas leis mostram como negar conjunções ("e") e disjunções ("ou").
 
 Uma condicional é logicamente equivalente à sua contrapositiva, onde negamos e invertemos o antecedente e o consequente.
 
-* **Exemplo:** "Se Gustavo tem CRC, então é profissional da contabilidade" equivale a "Se Gustavo **não é** profissional da contabilidade, então **não tem** CRC".
+* **Exemplo:**
+ * Regra: "Se o sistema está online ($p$), então o banco de dados está conectado ($q$)".
+ * Aplicação: Se um aluno vê que o banco de dados está desconectado ($\neg q$), ele pode afirmar com 100% de certeza lógica que o sistema não está online ($\neg p$). É uma ferramenta de diagnóstico de erros.
+* **Quando aplicar:** Em Demonstrações e Verificação de Regras de Negócio.
+* **Utilidade:** Às vezes, é muito difícil provar que algo acontece ($p \rightarrow q$), mas é muito fácil provar que, se o resultado não ocorreu, a causa também não existiu ($\neg q \rightarrow \neg p$).
 
 **Tabela-Verdade:**
 | $p$ | $q$ | $p \rightarrow q$ | $\neg q$ | $\neg p$ | $\neg q \rightarrow \neg p$ |
