@@ -1,4 +1,4 @@
-# Aula 02: Relações Lógicas e Álgebra de Proposições
+# Aula 02 - Relações Lógicas e Álgebra de Proposições
 
 ## 1. Do Pensamento à Estrutura Lógica
 
