@@ -116,8 +116,3 @@ Negar que **existe pelo menos um** é o mesmo que dizer que **ninguém/nenhum** 
 * **Frase:** "Algum aluno de ADS não estuda Python".
 * **Resposta:** $\exists x (A(x) \wedge \neg S(x))$
     * Onde $A(x)$ é "x é aluno de ADS" e $S(x)$ é "x estuda Python".
-
-**Exercício 3: Conversão Binária (11000000)**
-* **Cálculo:** * $(1 \cdot 2^7) + (1 \cdot 2^6) + (0 \cdot 2^5) + (0 \cdot 2^4) + (0 \cdot 2^3) + (0 \cdot 2^2) + (0 \cdot 2^1) + (0 \cdot 2^0)$
-    * $128 + 64 + 0 + 0 + 0 + 0 + 0 + 0 = \mathbf{192}$.
-* **Dica:** Comente que 192 é um número muito comum em endereços IP (ex: 192.168.0.1).
