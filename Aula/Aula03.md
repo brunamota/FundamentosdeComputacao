@@ -3,18 +3,41 @@
 ## 1. Argumentos e Validade
 
 Um **Argumento** é um conjunto de proposições onde uma delas (conclusão) deriva das outras (premissas).
+Um **Argumento** é uma sequência de proposições onde as **Premissas** devem oferecer suporte para a aceitação da **Conclusão**.
 
-* **Validade:** Um argumento é válido se, e somente se, em todas as situações onde as premissas são verdadeiras, a conclusão também é obrigatoriamente verdadeira.
-* **Dedução:** É o processo de derivar a conclusão a partir das premissas usando regras lógicas.
-* **Diferença Crucial:** A lógica não julga se as frases são "verdades reais" do mundo, mas se a **estrutura** do pensamento é correta.
+### A) Exemplo de Argumento Válido
+Um argumento é válido quando é impossível que as premissas sejam verdadeiras e a conclusão seja falsa ao mesmo tempo. Um argumento é válido se, e somente se, em todas as situações onde as premissas são verdadeiras, a conclusão também é obrigatoriamente verdadeira.
+
+* **Premissa 1:** Todo aluno de ADS sabe programar.
+* **Premissa 2:** Bruna é aluna de ADS.
+* **Conclusão:** Logo, Bruna sabe programar.
+* **Exemplo:** Note que a conclusão "salta" das premissas de forma necessária. Se aceitamos as duas primeiras frases, não temos como negar a terceira.
+
+### B) Exemplo de Argumento Inválido (Sofisma/Falácia)
+Mesmo que as frases pareçam verdadeiras isoladamente, se a estrutura não for conexa, o argumento é inválido. É o processo de derivar a conclusão a partir das premissas usando regras lógicas.
+
+* **Premissa 1:** Se um computador está sem bateria, ele desliga.
+* **Premissa 2:** O computador de João está desligado.
+* **Conclusão:** Logo, o computador de João está sem bateria.
+* **Exemplo:** Este argumento é **inválido**. Por quê? Porque existem outros motivos para um computador estar desligado (ele pode estar quebrado, ou apenas fechado). A estrutura não garante a conclusão.
+
+### C) Verdade vs. Validade
+A lógica não julga se as frases são "verdades reais" do mundo, mas se a estrutura do pensamento é correta.
+
+* **Argumento Válido com frases Falsas:**
+    * **P1:** Todo gato voa. (Falso)
+    * **P2:** Garfield é um gato. (Verdadeiro)
+    * **C:** Logo, Garfield voa. (Falso)
+* **Veredito:** O argumento é **Válido**. Embora a conclusão seja mentirosa no mundo real, ela é uma consequência lógica perfeita das premissas apresentadas.
+
 
 ## 2. Regras de Inferência: O Motor da Dedução
 
 As regras de inferência são formas de argumentos válidos que servem como "atalhos" para não precisarmos fazer tabelas-verdade gigantes.
 
-### Principais Regras:
+### A) Modus Ponens (Afirmação do Antecedente)
 
-* **Modus Ponens (Afirmação do Antecedente):** É a regra mais comum na programação (if p then q). Se a condição ocorre, o resultado é disparado.
+É a regra mais comum na programação (if p then q). Se a condição ocorre, o resultado é disparado.
     * Premissa 1: $p \rightarrow q$ (Se chover, a rua molha)
     * Premissa 2: $p$ (Choveu)
     * Conclusão: $\therefore q$ (Logo, a rua molhou)
@@ -23,7 +46,9 @@ As regras de inferência são formas de argumentos válidos que servem como "ata
       2. O usuário digitou a senha correta ($p$).
       3. **Conclusão:** O acesso está liberado ($\therefore q$).
 
-* **Modus Tollens (Negação do Consequente):** Trabalha com a lógica reversa. Se o resultado esperado não aconteceu, a causa necessária também não ocorreu.
+### B) Modus Tollens (Negação do Consequente)
+
+Trabalha com a lógica reversa. Se o resultado esperado não aconteceu, a causa necessária também não ocorreu.
     * Premissa 1: $p \rightarrow q$ (Se há fogo, há fumaça)
     * Premissa 2: $\neg q$ (Não há fumaça)
     * Conclusão: $\therefore \neg p$ (Logo, não há fogo)
@@ -32,7 +57,9 @@ As regras de inferência são formas de argumentos válidos que servem como "ata
       2. O alarme não está tocando ($\neg q$).
       3. **Conclusão:** O sensor não detectou fumaça ($\therefore \neg p$).
          
-* **Silogismo Hipotético (Regra da Transitividade):** Permite conectar três ou mais proposições em uma sequência lógica. Muito usado em fluxogramas de sistemas.
+### C) Silogismo Hipotético (Regra da Transitividade)
+
+Permite conectar três ou mais proposições em uma sequência lógica. Muito usado em fluxogramas de sistemas.
     * Premissa 1: $p \rightarrow q$
     * Premissa 2: $q \rightarrow r$
     * Conclusão: $\therefore p \rightarrow r$
@@ -56,10 +83,10 @@ Eles definem o **alcance** da nossa afirmação dentro de um conjunto (domínio)
 
 1.  **Quantificador Universal ($\forall$):** Significa "para todo", "para cada", "qualquer que seja".
     * **Simbologia:** $\forall x, P(x)$
-    * **No Quadro:** "Todos os alunos de ADS estudam lógica". Se houver **um único** aluno que não estuda, a frase inteira torna-se Falsa.
+    * **Exemplo:** "Todos os alunos de ADS estudam lógica". Se houver **um único** aluno que não estuda, a frase inteira torna-se Falsa.
 2.  **Quantificador Existencial ($\exists$):** Significa "existe pelo menos um", "algum", "há um".
     * **Simbologia:** $\exists x, P(x)$
-    * **Exemplo** "Existe um aluno que é monitor". Basta encontrar **um único** caso para a frase ser Verdadeira.
+    * **Exemplo:** "Existe um aluno que é monitor". Basta encontrar **um único** caso para a frase ser Verdadeira.
 
 ## 4. Negação de Quantificadores (Leis de De Morgan para Predicados) 
 
