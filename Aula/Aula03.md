@@ -2,8 +2,12 @@
 
 ## 1. Argumentos e Validade
 
-Um **Argumento** é um conjunto de proposições em que uma delas (conclusão) deriva das outras (premissas).
 Um **Argumento** é uma sequência de proposições em que as **Premissas** devem oferecer suporte para a aceitação da **Conclusão**.
+
+### Aplicação no Dia a Dia
+
+* **Debug de Sistemas:** Quando um sistema falha, o programador analisa as premissas (logs, estados de variáveis) para deduzir onde a validade do processo foi quebrada.
+* **Segurança da Informação:** Auditorias de segurança usam argumentos dedutivos para provar que, se certas premissas de acesso forem atendidas, o sistema está ou não vulnerável.
 
 ### A) Argumento Válido
 Um argumento é válido quando é impossível que as premissas sejam verdadeiras e a conclusão seja falsa ao mesmo tempo. Um argumento é válido se, e somente se, em todas as situações em que as premissas são verdadeiras, a conclusão também é obrigatoriamente verdadeira.
@@ -34,6 +38,11 @@ A lógica não julga se as frases são "verdades reais" do mundo, mas se a estru
 ## 2. Regras de Inferência: O Motor da Dedução
 
 As regras de inferência são formas de argumentos válidos que servem como "atalhos" para não precisarmos fazer tabelas-verdade gigantes.
+
+### Aplicação no Dia a Dia
+
+* **Arquitetura de Microserviços:** O Silogismo Hipotético é a base para entender dependências entre serviços (Se o Serviço A falha, o B falha, e consequentemente o C também).
+* **Sistemas Especialistas (IA):** Motores de inferência em IAs clássicas usam Modus Ponens para chegar a diagnósticos médicos ou técnicos a partir de sintomas inseridos pelo usuário.
 
 ### A) Modus Ponens (Afirmação do Antecedente)
 
@@ -72,6 +81,10 @@ Permite conectar três ou mais proposições em uma sequência lógica. Muito us
 
 Até agora, tratamos as frases como blocos fechados. A **Lógica de Predicados** permite "olhar dentro" da frase, analisando sujeitos e propriedades.
 
+### Aplicação no Dia a Dia
+* **Banco de Dados (SQL):** Quando usamos SELECT * FROM usuarios WHERE status = 'ativo', estamos aplicando um predicado. O comando ALL no SQL equivale ao $\forall$ e o EXISTS ao $\exists$.
+* **Validação de Formulários:** Verificar se todos os campos obrigatórios estão preenchidos ($\forall$) ou se existe algum caractere inválido na senha ($\exists$).
+
 ### A) O que é um Predicado?
 É uma afirmação sobre um sujeito ($x$). Na computação, pense no predicado como uma **função booleana** que retorna V ou F.
 * **Exemplo:** $P(x)$ em que $P$ é o predicado "é par".
@@ -91,6 +104,10 @@ Eles definem o **alcance** da nossa afirmação dentro de um conjunto (domínio)
 ## 4. Negação de Quantificadores (Leis de De Morgan para Predicados) 
 
 Negar que "Todos são" não significa dizer que "Ninguém é", mas sim que "Pelo menos um não é". Negar um quantificador exige trocar o símbolo e negar o predicado. É uma ferramenta essencial para testar falhas em sistemas.
+
+### Aplicação no Dia a Dia
+* **Testes Unitários (QA):** Para refutar a tese de que "o software está livre de bugs" ($\forall$), o testador só precisa provar que "existe um bug" ($\exists$). É a base do pensamento de quem trabalha com qualidade de software.
+* **Filtros de Busca:** Ao negar um filtro de "Exibir apenas produtos em estoque", o sistema deve ser capaz de entender logicamente que deve buscar "Todos os produtos que NÃO estão em estoque".
 
 ### A) Negando o "Todo" ($\forall$)
 Negar que **todos** fazem algo é o mesmo que dizer que **pelo menos um** não faz.
