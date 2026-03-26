@@ -38,13 +38,13 @@ As regras de inferência são formas de argumentos válidos que servem como "ata
 ### A) Modus Ponens (Afirmação do Antecedente)
 
 É a regra mais comum na programação (if p then q). Se a condição ocorre, o resultado é disparado.
-    * Premissa 1: $p \rightarrow q$ (Se chover, a rua molha)
-    * Premissa 2: $p$ (Choveu)
-    * Conclusão: $\therefore q$ (Logo, a rua molhou)
-    * **Exemplo Prático:**
-      1. Se o usuário digitar a senha correta ($p$), então o acesso é liberado ($q$).
-      2. O usuário digitou a senha correta ($p$).
-      3. **Conclusão:** O acesso está liberado ($\therefore q$).
+* Premissa 1: $p \rightarrow q$ (Se chover, a rua molha)
+* Premissa 2: $p$ (Choveu)
+* Conclusão: $\therefore q$ (Logo, a rua molhou)
+* **Exemplo Prático:**
+  1. Se o usuário digitar a senha correta ($p$), então o acesso é liberado ($q$).
+  2. O usuário digitou a senha correta ($p$).
+  3. **Conclusão:** O acesso está liberado ($\therefore q$).
 
 ### B) Modus Tollens (Negação do Consequente)
 
