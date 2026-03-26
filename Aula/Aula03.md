@@ -95,6 +95,8 @@ Negar que "Todos são" não significa dizer que "Ninguém é", mas sim que "Pelo
 ### A) Negando o "Todo" ($\forall$)
 Negar que **todos** fazem algo é o mesmo que dizer que **pelo menos um** não faz.
 * **Regra:** $\neg (\forall x, P(x)) \equiv \exists x, \neg P(x)$
+* A negação de que para todo $x$, $P(x)$ é verdadeiro, é equivalente a dizer que existe algum $x$ tal que $P(x)$ não é verdadeiro.
+* Dizer que nem todos os alunos chegaram cedo é o mesmo que dizer que existe pelo menos um aluno que não chegou cedo.
 * **Exemplo:**
     * Frase: "Todos os arquivos foram salvos."
     * Negação: "Não é verdade que todos os arquivos foram salvos" $\equiv$ "**Existe algum** arquivo que **não** foi salvo."
@@ -102,6 +104,8 @@ Negar que **todos** fazem algo é o mesmo que dizer que **pelo menos um** não f
 ### B) Negando o "Existe" ($\exists$)
 Negar que **existe pelo menos um** é o mesmo que dizer que **ninguém/nenhum** faz.
 * **Regra:** $\neg (\exists x, P(x)) \equiv \forall x, \neg P(x)$
+* A negação de que existe um $x$ tal que $P(x)$ é verdadeiro, é equivalente a dizer que, para todo $x$, $P(x)$ é falso.
+* Dizer que não existe nenhum erro no código é o mesmo que dizer que todos os trechos de código não possuem erro (estão corretos).
 * **Exemplo:**
     * Frase: "Existe um bug no sistema."
     * Negação: "Não é verdade que existe um bug" $\equiv$ "**Todos** os componentes estão **sem** bug (não possuem bug)."
