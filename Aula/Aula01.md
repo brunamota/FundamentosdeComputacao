@@ -1,4 +1,4 @@
-# Aula 01: Lógica Proposicional e Tomada de Decisão na Computação
+# Aula 01 - Lógica Proposicional e Tomada de Decisão na Computação
 
 ## 1. Introdução à Lógica Computacional
 
