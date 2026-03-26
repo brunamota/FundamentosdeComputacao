@@ -49,24 +49,24 @@ As regras de inferência são formas de argumentos válidos que servem como "ata
 ### B) Modus Tollens (Negação do Consequente)
 
 Trabalha com a lógica reversa. Se o resultado esperado não aconteceu, a causa necessária também não ocorreu.
-    * Premissa 1: $p \rightarrow q$ (Se há fogo, há fumaça)
-    * Premissa 2: $\neg q$ (Não há fumaça)
-    * Conclusão: $\therefore \neg p$ (Logo, não há fogo)
-    * **Exemplo Prático:**
-      1. Se o sensor detectar fumaça ($p$), então o alarme toca ($q$).
-      2. O alarme não está tocando ($\neg q$).
-      3. **Conclusão:** O sensor não detectou fumaça ($\therefore \neg p$).
+* Premissa 1: $p \rightarrow q$ (Se há fogo, há fumaça)
+* Premissa 2: $\neg q$ (Não há fumaça)
+* Conclusão: $\therefore \neg p$ (Logo, não há fogo)
+* **Exemplo Prático:**
+  1. Se o sensor detectar fumaça ($p$), então o alarme toca ($q$).
+   2. O alarme não está tocando ($\neg q$).
+  3. **Conclusão:** O sensor não detectou fumaça ($\therefore \neg p$).
          
 ### C) Silogismo Hipotético (Regra da Transitividade)
 
 Permite conectar três ou mais proposições em uma sequência lógica. Muito usado em fluxogramas de sistemas.
-    * Premissa 1: $p \rightarrow q$
-    * Premissa 2: $q \rightarrow r$
-    * Conclusão: $\therefore p \rightarrow r$
-    * **Exemplo Prático:**
-      1. Se o servidor cair ($p$), o site fica offline ($q$).
-      2. Se o site ficar offline ($q$), a empresa perde vendas ($r$).
-      3. **Conclusão:** Se o servidor cair, a empresa perde vendas ($\therefore p \rightarrow r$).
+* Premissa 1: $p \rightarrow q$
+* Premissa 2: $q \rightarrow r$
+* Conclusão: $\therefore p \rightarrow r$
+* **Exemplo Prático:**
+  1. Se o servidor cair ($p$), o site fica offline ($q$).
+   2. Se o site ficar offline ($q$), a empresa perde vendas ($r$).
+  3. **Conclusão:** Se o servidor cair, a empresa perde vendas ($\therefore p \rightarrow r$).
 
 ## 3. Lógica de Predicados e Quantificadores 
 
