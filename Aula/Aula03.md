@@ -2,18 +2,18 @@
 
 ## 1. Argumentos e Validade
 
-Um **Argumento** é um conjunto de proposições onde uma delas (conclusão) deriva das outras (premissas).
-Um **Argumento** é uma sequência de proposições onde as **Premissas** devem oferecer suporte para a aceitação da **Conclusão**.
+Um **Argumento** é um conjunto de proposições em que uma delas (conclusão) deriva das outras (premissas).
+Um **Argumento** é uma sequência de proposições em que as **Premissas** devem oferecer suporte para a aceitação da **Conclusão**.
 
-### A) Exemplo de Argumento Válido
-Um argumento é válido quando é impossível que as premissas sejam verdadeiras e a conclusão seja falsa ao mesmo tempo. Um argumento é válido se, e somente se, em todas as situações onde as premissas são verdadeiras, a conclusão também é obrigatoriamente verdadeira.
+### A) Argumento Válido
+Um argumento é válido quando é impossível que as premissas sejam verdadeiras e a conclusão seja falsa ao mesmo tempo. Um argumento é válido se, e somente se, em todas as situações em que as premissas são verdadeiras, a conclusão também é obrigatoriamente verdadeira.
 
 * **Premissa 1:** Todo aluno de ADS sabe programar.
 * **Premissa 2:** Bruna é aluna de ADS.
 * **Conclusão:** Logo, Bruna sabe programar.
 * **Exemplo:** Note que a conclusão "salta" das premissas de forma necessária. Se aceitamos as duas primeiras frases, não temos como negar a terceira.
 
-### B) Exemplo de Argumento Inválido (Sofisma/Falácia)
+### B) Argumento Inválido (Sofisma/Falácia)
 Mesmo que as frases pareçam verdadeiras isoladamente, se a estrutura não for conexa, o argumento é inválido. É o processo de derivar a conclusão a partir das premissas usando regras lógicas.
 
 * **Premissa 1:** Se um computador está sem bateria, ele desliga.
@@ -74,7 +74,7 @@ Até agora, tratamos as frases como blocos fechados. A **Lógica de Predicados**
 
 ### A) O que é um Predicado?
 É uma afirmação sobre um sujeito ($x$). Na computação, pense no predicado como uma **função booleana** que retorna V ou F.
-* **Exemplo:** $P(x)$ onde $P$ é o predicado "é par".
+* **Exemplo:** $P(x)$ em que $P$ é o predicado "é par".
     * $P(2)$ é Verdadeiro.
     * $P(3)$ é Falso.
 
@@ -119,4 +119,4 @@ Negar que **existe pelo menos um** é o mesmo que dizer que **ninguém/nenhum** 
 **Exercício 2: Tradução Simbólica**
 * **Frase:** "Algum aluno de ADS não estuda Python".
 * **Resposta:** $\exists x (A(x) \wedge \neg S(x))$
-    * Onde $A(x)$ é "x é aluno de ADS" e $S(x)$ é "x estuda Python".
+    * em que $A(x)$ é "x é aluno de ADS" e $S(x)$ é "x estuda Python".
