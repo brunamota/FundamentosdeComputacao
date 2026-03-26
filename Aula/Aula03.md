@@ -11,7 +11,7 @@ Um argumento é válido quando é impossível que as premissas sejam verdadeiras
 * **Premissa 1:** Todo aluno de ADS sabe programar.
 * **Premissa 2:** Bruna é aluna de ADS.
 * **Conclusão:** Logo, Bruna sabe programar.
-* **Exemplo:** Note que a conclusão "salta" das premissas de forma necessária. Se aceitamos as duas primeiras frases, não temos como negar a terceira.
+* **Veredito:** Note que a conclusão "salta" das premissas de forma necessária. Se aceitamos as duas primeiras frases, não temos como negar a terceira.
 
 ### B) Argumento Inválido (Sofisma/Falácia)
 Mesmo que as frases pareçam verdadeiras isoladamente, se a estrutura não for conexa, o argumento é inválido. É o processo de derivar a conclusão a partir das premissas usando regras lógicas.
@@ -19,7 +19,7 @@ Mesmo que as frases pareçam verdadeiras isoladamente, se a estrutura não for c
 * **Premissa 1:** Se um computador está sem bateria, ele desliga.
 * **Premissa 2:** O computador de João está desligado.
 * **Conclusão:** Logo, o computador de João está sem bateria.
-* **Exemplo:** Este argumento é **inválido**. Por quê? Porque existem outros motivos para um computador estar desligado (ele pode estar quebrado, ou apenas fechado). A estrutura não garante a conclusão.
+* **Veredito:** Este argumento é **inválido**. Por quê? Porque existem outros motivos para um computador estar desligado (ele pode estar quebrado, ou apenas fechado). A estrutura não garante a conclusão.
 
 ### C) Verdade vs. Validade
 A lógica não julga se as frases são "verdades reais" do mundo, mas se a estrutura do pensamento é correta.
