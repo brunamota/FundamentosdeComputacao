@@ -10,7 +10,7 @@ Um **Argumento** é uma sequência de proposições em que as **Premissas** deve
 * **Segurança da Informação:** Auditorias de segurança usam argumentos dedutivos para provar que, se certas premissas de acesso forem atendidas, o sistema está ou não vulnerável.
 
 ### A) Argumento Válido
-Um argumento é válido quando é impossível que as premissas sejam verdadeiras e a conclusão seja falsa ao mesmo tempo. Um argumento é válido se, e somente se, em todas as situações em que as premissas são verdadeiras, a conclusão também é obrigatoriamente verdadeira.
+Um argumento é válido se, e somente se, em todas as situações em que as premissas são verdadeiras, a conclusão também é obrigatoriamente verdadeira.
 
 * **Premissa 1:** Todo aluno de ADS sabe programar.
 * **Premissa 2:** Bruna é aluna de ADS.
