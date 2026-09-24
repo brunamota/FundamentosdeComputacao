@@ -46,7 +46,7 @@ As regras de inferência são formas de argumentos válidos que servem como "ata
 
 ### A) Modus Ponens (Afirmação do Antecedente)
 
-É a regra mais comum na programação (if p then q). Se a condição ocorre, o resultado é disparado.
+O Modus Ponens (expressão em latim que significa "o modo que afirma") é uma regra de dedução clássica da lógica proposicional. Ele estabelece que, se uma condicional é verdadeira e a sua condição (o antecedente) também é verdadeira, então o resultado (o consequente) obrigatoriamente deve ser verdadeiro. É a regra mais comum na programação (if p then q). Se a condição ocorre, o resultado é disparado.
 * Premissa 1: $p \rightarrow q$ (Se chover, a rua molha)
 * Premissa 2: $p$ (Choveu)
 * Conclusão: $\therefore q$ (Logo, a rua molhou)
@@ -55,20 +55,31 @@ As regras de inferência são formas de argumentos válidos que servem como "ata
   2. O usuário digitou a senha correta ($p$).
   3. **Conclusão:** O acesso está liberado ($\therefore q$).
 
+Se você assume que a premissa $p \rightarrow q$ é uma regra válida (o que elimina a Linha 2, onde a regra falha) e você constata que $p$ é verdadeiro (eliminando as linhas 3 e 4, onde não chove), a única realidade lógica que sobra é a Linha 1. Consequentemente, a variável $q$ ("a rua molha") é forçada a ser Verdadeira.Esta regra é chamada de "Afirmação do Antecedente" porque o motor da dedução lógica é justamente a Premissa 2, onde nós afirmamos positivamente que a condição $p$ (o antecedente da frase) aconteceu.
+
 ### B) Modus Tollens (Negação do Consequente)
 
-Trabalha com a lógica reversa. Se o resultado esperado não aconteceu, a causa necessária também não ocorreu.
+O Modus Tollens (do latim "o modo que nega") é outra regra clássica de dedução lógica. Ele estabelece que, se uma regra condicional é verdadeira e o seu resultado (consequente) não aconteceu, então é obrigatório concluir que a condição inicial (antecedente) também não aconteceu. Trabalha com a lógica reversa. Se o resultado esperado não aconteceu, a causa necessária também não ocorreu.
 * Premissa 1: $p \rightarrow q$ (Se há fogo, há fumaça)
 * Premissa 2: $\neg q$ (Não há fumaça)
 * Conclusão: $\therefore \neg p$ (Logo, não há fogo)
 * **Exemplo Prático:**
   1. Se o sensor detectar fumaça ($p$), então o alarme toca ($q$).
-   2. O alarme não está tocando ($\neg q$).
+  2. O alarme não está tocando ($\neg q$).
   3. **Conclusão:** O sensor não detectou fumaça ($\therefore \neg p$).
+ 
+O raciocínio do Modus Tollens nos leva diretamente à Linha 4 da tabela:
+
+1. Assumimos que a regra geral é verdadeira ($p \rightarrow q$ = V). Isso nos faz descartar imediatamente a Linha 2, pois lá a regra falhou.
+2. A nossa Premissa 2 afirma com certeza que "Não há fumaça" ($q$ é Falso). Isso nos obriga a descartar as Linhas 1 e 3, pois nelas $q$ é Verdadeiro.
+3. A única linha que sobra na tabela é a Linha 4.
+4. Se olharmos para a Linha 4, qual é o valor obrigatório de $p$ (fogo)? Ele é Falso.
+
+Por isso o Modus Tollens funciona: ao negar o consequente (dizer que não há fumaça), a estrutura lógica te força a negar o antecedente para que a regra continue fazendo sentido. Se houvesse fogo, teria fumaça; como não há fumaça, é impossível haver fogo.
          
 ### C) Silogismo Hipotético (Regra da Transitividade)
 
-Permite conectar três ou mais proposições em uma sequência lógica. Muito usado em fluxogramas de sistemas.
+Para demonstrar o Silogismo Hipotético (também chamado de Lei da Transitividade), precisamos expandir o seu exemplo. Esta regra lógica diz que podemos "conectar" duas condicionais em cadeia se o resultado (consequente) da primeira for a causa (antecedente) da segunda. Permite conectar três ou mais proposições em uma sequência lógica. Muito usado em fluxogramas de sistemas.
 * Premissa 1: $p \rightarrow q$
 * Premissa 2: $q \rightarrow r$
 * Conclusão: $\therefore p \rightarrow r$
@@ -76,6 +87,8 @@ Permite conectar três ou mais proposições em uma sequência lógica. Muito us
   1. Se o servidor cair ($p$), o site fica offline ($q$).
    2. Se o site ficar offline ($q$), a empresa perde vendas ($r$).
   3. **Conclusão:** Se o servidor cair, a empresa perde vendas ($\therefore p \rightarrow r$).
+ 
+O Silogismo Hipotético é um atalho lógico. Ele nos permite cortar o intermediário (o site ficar offline) e ligar diretamente a causa inicial ao resultado final. Se o evento A engatilha o B, e o B engatilha o C, então é uma certeza lógica que o evento A resulta no evento C.É exatamente como o princípio matemático da transitividade: Se $x = y$ e $y = z$, então obrigatoriamente $x = z$.
 
 ## 3. Lógica de Predicados e Quantificadores 
 
